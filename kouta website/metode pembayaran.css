@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.payment-container {
+  width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.payment-container h2 {
+  text-align: center;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="number"],
+.payment-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.payment-form button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.payment-form button:hover {
+  background-color: #45a049;
+}
+
+.dana-button {
+  background-color: #ff6900;
+}
+
+.gopay-button {
+  background-color: #00b0ff;
+}
+
+.paylater-button {
+  background-color: #a6a6a6;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Metode Pembayaran</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="payment-container">
+    <h2>Metode Pembayaran</h2>
+    <form class="payment-form">
+      <input type="text" placeholder="Nama Lengkap" required>
+      <input type="email" placeholder="Email" required>
+      <input type="number" placeholder="Nomor Kartu" required>
+      <input type="text" placeholder="Tanggal Kadaluarsa (MM/YYYY)" required>
+      <input type="number" placeholder="CVV" required>
+      <button type="submit">Bayar</button>
+    </form>
+    <hr>
+    <div>
+      <h3>Metode Pembayaran Lainnya</h3>
+      <button class="dana-button">Bayar dengan Dana</button>
+      <button class="gopay-button">Bayar dengan GoPay</button>
+      <button class="paylater-button">Bayar Nanti</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
